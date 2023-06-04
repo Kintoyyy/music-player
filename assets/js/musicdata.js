@@ -53,7 +53,7 @@ const musicData = [
     {
         "backgroundImage": "",
         "posterUrl": "",
-        "title": "All I Want - From \"High School Musical: The Musical: The Series\"",
+        "title": "All I Want - From High School Musical The Musical The Series",
         "album": "",
         "year": "2020",
         "artist": "Olivia Rodrigo/Disney",
@@ -127,7 +127,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Dancing With Your Ghost",
         "album": "",
-        "year": "",
+        "year": "2019",
         "artist": "Sasha Alex Sloan",
         "musicPath": "./assets/music/Dancing With Your Ghost.mp3"
     },
@@ -136,7 +136,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Dandelions",
         "album": "",
-        "year": "",
+        "year": "2017",
         "artist": "Ruth B.",
         "musicPath": "./assets/music/Dandelions.mp3"
     },
@@ -145,7 +145,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Eastside (with Halsey & Khalid)",
         "album": "",
-        "year": "",
+        "year": "2018",
         "artist": "benny blanco/Halsey/Khalid",
         "musicPath": "./assets/music/Eastside (with Halsey & Khalid).mp3"
     },
@@ -154,7 +154,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Falling",
         "album": "",
-        "year": "",
+        "year": "2019",
         "artist": "Harry Styles",
         "musicPath": "./assets/music/Falling.mp3"
     },
@@ -163,7 +163,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Fly",
         "album": "",
-        "year": "",
+        "year": "2010",
         "artist": "Nicki Minaj/Rihanna",
         "musicPath": "./assets/music/Fly.mp3"
     },
@@ -181,7 +181,7 @@ const musicData = [
         "posterUrl": "",
         "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
         "album": "",
-        "year": "",
+        "year": "2016",
         "artist": "ZAYN/Taylor Swift",
         "musicPath": "./assets/music/I Don’t Wanna Live Forever (Fifty Shades Darker).mp3"
     },
@@ -199,7 +199,7 @@ const musicData = [
         "posterUrl": "",
         "title": "It's You",
         "album": "",
-        "year": "",
+        "year": "2019",
         "artist": "Ali Gatie",
         "musicPath": "./assets/music/It's You.mp3"
     },
@@ -208,7 +208,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Kill Bill",
         "album": "",
-        "year": "",
+        "year": "2022",
         "artist": "SZA",
         "musicPath": "./assets/music/Kill Bill.mp3"
     },
@@ -217,7 +217,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Lose You To Love Me",
         "album": "",
-        "year": "",
+        "year": "2020",
         "artist": "Selena Gomez",
         "musicPath": "./assets/music/Lose You To Love Me.mp3"
     },
@@ -226,7 +226,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Malibu Nights",
         "album": "",
-        "year": "",
+        "year": "2020",
         "artist": "LANY",
         "musicPath": "./assets/music/Malibu Nights.mp3"
     },
@@ -235,7 +235,7 @@ const musicData = [
         "posterUrl": "",
         "title": "My Only One (No Hay Nadie Más)",
         "album": "",
-        "year": "",
+        "year": "2021",
         "artist": "Sebastian Yatra/Isabela Merced",
         "musicPath": "./assets/music/My Only One (No Hay Nadie Más).mp3"
     },
@@ -244,7 +244,7 @@ const musicData = [
         "posterUrl": "",
         "title": "No One Compares To You",
         "album": "",
-        "year": "",
+        "year": "2018",
         "artist": "Jack & Jack",
         "musicPath": "./assets/music/No One Compares To You.mp3"
     },
@@ -253,7 +253,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Nobody Compares To You (feat. Katie Pearlman)",
         "album": "",
-        "year": "",
+        "year": "2018",
         "artist": "Gryffin/Katie Pearlman",
         "musicPath": "./assets/music/Nobody Compares To You (feat. Katie Pearlman).mp3"
     },
@@ -262,7 +262,7 @@ const musicData = [
         "posterUrl": "",
         "title": "On My Way",
         "album": "",
-        "year": "",
+        "year": "2013",
         "artist": "Illijah",
         "musicPath": "./assets/music/On My Way.mp3"
     },
@@ -271,7 +271,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Once in a Lifetime",
         "album": "",
-        "year": "",
+        "year": "2009",
         "artist": "Freestyle",
         "musicPath": "./assets/music/Once in a Lifetime.mp3"
     },
@@ -280,7 +280,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Open Arms (feat. Travis Scott)",
         "album": "",
-        "year": "",
+        "year": "2022",
         "artist": "SZA/Travis Scott",
         "musicPath": "./assets/music/Open Arms (feat. Travis Scott).mp3"
     },
@@ -289,7 +289,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Pull Up",
         "album": "",
-        "year": "",
+        "year": "2019",
         "artist": "Luh Kel",
         "musicPath": "./assets/music/Pull Up.mp3"
     },
@@ -298,7 +298,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Remember - Acoustic",
         "album": "",
-        "year": "",
+        "year": "2021",
         "artist": "Becky Hill",
         "musicPath": "./assets/music/Remember - Acoustic.mp3"
     },
@@ -307,7 +307,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
         "album": "",
-        "year": "",
+        "year": "2018",
         "artist": "James Arthur/Anne-Marie",
         "musicPath": "./assets/music/Rewrite The Stars (with James Arthur & Anne-Marie).mp3"
     },
@@ -316,7 +316,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Ring",
         "album": "",
-        "year": "",
+        "year": "2020",
         "artist": "Selena Gomez",
         "musicPath": "./assets/music/Ring.mp3"
     },
@@ -325,7 +325,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Ruin My Life",
         "album": "",
-        "year": "",
+        "year": "2021",
         "artist": "Zara Larsson",
         "musicPath": "./assets/music/Ruin My Life.mp3"
     },
@@ -334,7 +334,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Scars To Your Beautiful",
         "album": "",
-        "year": "",
+        "year": "2016",
         "artist": "Alessia Cara",
         "musicPath": "./assets/music/Scars To Your Beautiful.mp3"
     },
@@ -343,7 +343,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Secret Love Song (feat. Jason Derulo)",
         "album": "",
-        "year": "",
+        "year": "2015",
         "artist": "Little Mix/Jason Derulo",
         "musicPath": "./assets/music/Secret Love Song (feat. Jason Derulo).mp3"
     },
@@ -352,7 +352,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Shower",
         "album": "",
-        "year": "",
+        "year": "2014",
         "artist": "Becky G",
         "musicPath": "./assets/music/Shower.mp3"
     },
@@ -361,7 +361,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Something New",
         "album": "",
-        "year": "",
+        "year": "2016",
         "artist": "Zendaya/Chris Brown",
         "musicPath": "./assets/music/Something New.mp3"
     },
@@ -370,7 +370,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Strawberries & Cigarettes",
         "album": "",
-        "year": "",
+        "year": "2018",
         "artist": "Troye Sivan",
         "musicPath": "./assets/music/Strawberries & Cigarettes.mp3"
     },
@@ -379,7 +379,7 @@ const musicData = [
         "posterUrl": "",
         "title": "Stuck with U (with Justin Bieber)",
         "album": "",
-        "year": "",
+        "year": "2020",
         "artist": "Ariana Grande/Justin Bieber",
         "musicPath": "./assets/music/Stuck with U (with Justin Bieber).mp3"
     },

@@ -1,5 +1,9 @@
 'use strict';
 
+
+
+
+
 /**
  * Keyboard shortcuts
  */
@@ -16,6 +20,7 @@ document.addEventListener("keydown", function (event) {
   else if (event.code === "Space") {
     // Play music
     playMusic()
+
   }
   else if (event.code === "ArrowRight") {
     // Skip next music
@@ -34,7 +39,6 @@ document.addEventListener("keydown", function (event) {
     shuffle();
   }
   else if (event.code === "KeyR") {
-    console.log("repeat")
     // Turn on / off Repeat
     repeat();
   }
@@ -45,6 +49,8 @@ document.addEventListener("keydown", function (event) {
 });
 
 
+
+const lastPlayedMusicLocal = localStorage.getItem("lastPlayedMusic");
 
 /**
  * add eventListnere on all elements that are passed
@@ -57,6 +63,38 @@ const addEventOnElements = function (elements, eventType, callback) {
 }
 
 
+const searchInput = document.getElementById('searchInput');
+const playlist = document.querySelector("[data-music-list]");
+let filteredPlaylist = [];
+
+searchInput.addEventListener('input', function () {
+  const searchText = this.value.toLowerCase();
+  filteredPlaylist = musicData.filter(function (music) {
+    return music.title.toLowerCase().includes(searchText) || music.artist.toLowerCase().includes(searchText);
+  });
+  renderPlaylist();
+});
+
+function renderPlaylist() {
+  playlist.innerHTML = ''; // Clear existing playlist
+  for (let i = 0; i < filteredPlaylist.length; i++) {
+    playlist.innerHTML += `
+      <li>
+        <button class="music-item ${i === lastPlayedMusicLocal ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+          <img src="${(filteredPlaylist[i].posterUrl !== "") ? filteredPlaylist[i].posterUrl : './assets/images/' + filteredPlaylist[i].title + '.jpg'}" width="800" height="800" alt="${filteredPlaylist[i].title} Album Poster" class="img-cover">
+          <div class="item-icon">
+            <span class="material-symbols-rounded">equalizer</span>
+          </div>
+        </button>
+      </li>
+    `;
+  }
+}
+
+// Initial rendering of the full playlist
+filteredPlaylist = musicData;
+renderPlaylist();
+
 
 /**
  * PLAYLIST
@@ -64,22 +102,22 @@ const addEventOnElements = function (elements, eventType, callback) {
  * add all music in playlist, from 'musicData'
  */
 
-const playlist = document.querySelector("[data-music-list]");
+// const playlist = document.querySelector("[data-music-list]");
 
-for (let i = 0, len = musicData.length; i < len; i++) {
-  playlist.innerHTML += `
-  <li>
-    <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-      <img src="${(musicData[i].posterUrl != "") ? musicData[i].posterUrl : './assets/images/' + musicData[i].title + '.jpg'} " width="800" height="800" alt="${musicData[i].title} Album Poster"
-        class="img-cover">
+// for (let i = 0, len = musicData.length; i < len; i++) {
+//   playlist.innerHTML += `
+//   <li>
+//     <button class="music-item ${i === lastPlayedMusicLocal ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+//       <img src="${(musicData[i].posterUrl != "") ? musicData[i].posterUrl : './assets/images/' + musicData[i].title + '.jpg'} " width="800" height="800" alt="${musicData[i].title} Album Poster"
+//         class="img-cover">
 
-      <div class="item-icon">
-        <span class="material-symbols-rounded">equalizer</span>
-      </div>
-    </button>
-  </li>
-  `;
-}
+//       <div class="item-icon">
+//         <span class="material-symbols-rounded">equalizer</span>
+//       </div>
+//     </button>
+//   </li>
+//   `;
+// }
 
 
 
@@ -113,8 +151,8 @@ addEventOnElements(playlistTogglers, "click", togglePlaylist);
 
 const playlistItems = document.querySelectorAll("[data-playlist-item]");
 
-let currentMusic = 0;
-let lastPlayedMusic = localStorage.getItem("lastPlayedMusic") || 0; // Retrieve the last played music from local storage, or set it to 0 if it doesn't exist
+let currentMusic = lastPlayedMusicLocal || 0;
+let lastPlayedMusic = 0;
 
 const changePlaylistItem = function () {
   playlistItems[lastPlayedMusic].classList.remove("playing");
@@ -123,7 +161,7 @@ const changePlaylistItem = function () {
 
 // Function to update the last played music in local storage
 const updateLastPlayedMusic = function () {
-  localStorage.setItem("lastPlayedMusic", lastPlayedMusic);
+  localStorage.setItem("lastPlayedMusic", currentMusic);
 }
 
 // Function to handle click event on playlist items
@@ -131,7 +169,6 @@ const handleClick = function () {
   lastPlayedMusic = currentMusic;
   currentMusic = Number(this.dataset.playlistItem);
   changePlaylistItem();
-  updateLastPlayedMusic();
 };
 
 // Add event listeners to playlist items
@@ -172,6 +209,21 @@ const changePlayerInfo = function () {
   playMusic();
 }
 
+
+const loadLastPlayed = function () {
+  playerBanner.src = (musicData[currentMusic].posterUrl != "") ? musicData[currentMusic].posterUrl : "./assets/images/" + musicData[currentMusic].title + ".jpg";
+  playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
+  document.body.style.backgroundImage = (musicData[currentMusic].backgroundImage != "") ? `url(${musicData[currentMusic].backgroundImage})` : `url('./assets/images/${musicData[currentMusic].title}.jpg')`;
+  playerTitle.textContent = musicData[currentMusic].title;
+  playerAlbum.textContent = (musicData[currentMusic].album != "") ? musicData[currentMusic].album : musicData[currentMusic].artist;
+  playerYear.textContent = musicData[currentMusic].year;
+  playerArtist.textContent = musicData[currentMusic].artist;
+
+  audioSource.src = musicData[currentMusic].musicPath;
+
+  audioSource.addEventListener("loadeddata", updateDuration);
+}
+
 addEventOnElements(playlistItems, "click", changePlayerInfo);
 
 /** update player duration */
@@ -206,6 +258,7 @@ const playBtn = document.querySelector("[data-play-btn]");
 let playInterval;
 
 const playMusic = function () {
+
   if (audioSource.paused) {
     audioSource.play();
     playBtn.classList.add("active");
@@ -215,6 +268,8 @@ const playMusic = function () {
     playBtn.classList.remove("active");
     clearInterval(playInterval);
   }
+
+  updateLastPlayedMusic()
 }
 
 playBtn.addEventListener("click", playMusic);
@@ -364,10 +419,10 @@ const playerRepeatBtn = document.querySelector("[data-repeat]");
 const repeat = function () {
   if (!audioSource.loop) {
     audioSource.loop = true;
-    this.classList.add("active");
+    playerRepeatBtn.classList.add("active");
   } else {
     audioSource.loop = false;
-    this.classList.remove("active");
+    playerRepeatBtn.classList.remove("active");
   }
 }
 
@@ -418,9 +473,21 @@ const muteVolume = function () {
   if (!audioSource.muted) {
     audioSource.muted = true;
     playerVolumeBtn.children[0].textContent = "volume_off";
+    localStorage.setItem("muteState", "muted"); // Store the mute state in localStorage
   } else {
-    changeVolume();
+    audioSource.muted = false;
+    playerVolumeBtn.children[0].textContent = "volume_up";
+    localStorage.removeItem("muteState"); // Remove the mute state from localStorage
   }
 }
 
 playerVolumeBtn.addEventListener("click", muteVolume);
+
+// Check if mute state is stored in localStorage on page load
+document.addEventListener("DOMContentLoaded", function () {
+  const muteState = localStorage.getItem("muteState");
+  if (muteState === "muted") {
+    audioSource.muted = true;
+    playerVolumeBtn.children[0].textContent = "volume_off";
+  }
+});

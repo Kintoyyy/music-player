@@ -50,15 +50,20 @@
       <span class="material-symbols-rounded">graphic_eq</span>
 
       <h1 class="title-lg"></h1>
+
+      <input style="color:azure" type="text" id="searchInput" placeholder="Search music..." disabled>
+
     </div>
 
     <div class="top-bar-actions">
+
       <button class="btn-icon" data-playlist-toggler>
         <span class="material-symbols-rounded">queue_music</span>
       </button>
     </div>
 
   </div>
+
 
 
 
@@ -152,10 +157,6 @@
         </div>
       </div>
 
-
-
-
-
       <!-- 
         - #PLAYLIST
       -->
@@ -171,11 +172,62 @@
     </article>
   </main>
 
-
-
+  <script src="./assets/js/mutag.min.js"></script>
   <!-- 
     - custom js link
   -->
+  <script>
+
+
+    // const mutag = window.mutag;
+    // const filePath = "./assets/music/BRB.mp3";
+
+    // mutag.fetch(filePath).then((tags) => {
+    //   //get all tags
+    //   console.log(tags);
+    // });
+    // const mutag = window.mutag;
+    // const dropDOM = document.querySelector('.drop-area');
+    // dropDOM.addEventListener('drop', e => {
+
+    //   const file = e.dataTransfer.files[0];
+    //   let htmlStr = '';
+    //   dropDOM.innerHTML = `<div>${file.name}</div>`;
+    //   mutag.fetch(file).then(tags => {
+    //     if (tags.APIC) {
+    //       document.querySelector('.apic-img').src = URL.createObjectURL(tags.APIC);
+    //       document.querySelector('.apic').style.display = 'initial';
+    //     }
+
+
+    //     for (let tag of Object.keys(tags)) {
+    //       // normally, we don't need PRIV key
+    //       if (tag !== 'PRIV' && tag !== 'APIC')
+    //         console.log(tag)
+    //       htmlStr += `<p>
+    //                                     <span class='tag'>${tag}</span> --- <span>${tags[tag]}<span>
+    //                                 </p>`;
+    //     }
+
+    //     document.querySelector('.tags').innerHTML = htmlStr;
+    //   });
+
+
+    // }, false);
+
+    // document.addEventListener('drop', e => e.preventDefault(), false);
+    // document.addEventListener('dragover', e => e.preventDefault(), false);
+
+
+
+
+
+    window.onload = (event) => {
+      loadLastPlayed()
+
+
+    };
+  </script>
   <script src="./assets/js/musicdata.js"></script>
   <script src="./assets/js/script.js"></script>
 
