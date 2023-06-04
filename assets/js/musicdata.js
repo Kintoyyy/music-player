@@ -6,26 +6,26 @@
 
 const musicData = [
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/Area Codes.jpg",
+        "posterUrl": "./assets/images/Area Codes.jpg",
         "title": "Area Codes",
-        "album": "",
-        "year": "",
+        "album": "Kali",
+        "year": "2023",
         "artist": "Kali",
         "musicPath": "./assets/music/Area Codes.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/10,000 Hours (with Justin Bieber).jpg",
+        "posterUrl": "./assets/images/10,000 Hours (with Justin Bieber).jpg",
         "title": "10,000 Hours (with Justin Bieber)",
-        "album": "",
-        "year": "",
+        "album": "Dan + Shay/Justin Bieber",
+        "year": "2019",
         "artist": "Dan + Shay/Justin Bieber",
         "musicPath": "./assets/music/10,000 Hours (with Justin Bieber).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "8 Letters",
         "album": "",
         "year": "",
@@ -33,8 +33,8 @@ const musicData = [
         "musicPath": "./assets/music/8 Letters.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "All I Ever Need",
         "album": "",
         "year": "",
@@ -42,8 +42,8 @@ const musicData = [
         "musicPath": "./assets/music/All I Ever Need.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "All I Want - From \"High School Musical: The Musical: The Series\"",
         "album": "",
         "year": "",
@@ -51,8 +51,8 @@ const musicData = [
         "musicPath": "./assets/music/All I Want - From _High School Musical_ The Musical_ The Series_.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "BRB",
         "album": "",
         "year": "",
@@ -60,8 +60,8 @@ const musicData = [
         "musicPath": "./assets/music/BRB.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Be Alright",
         "album": "",
         "year": "",
@@ -69,8 +69,8 @@ const musicData = [
         "musicPath": "./assets/music/Be Alright.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Before You Go",
         "album": "",
         "year": "",
@@ -78,8 +78,8 @@ const musicData = [
         "musicPath": "./assets/music/Before You Go.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Boy's a Liar Pt. 2",
         "album": "",
         "year": "",
@@ -87,8 +87,8 @@ const musicData = [
         "musicPath": "./assets/music/Boy's a Liar Pt. 2.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "California King Bed",
         "album": "",
         "year": "",
@@ -96,8 +96,8 @@ const musicData = [
         "musicPath": "./assets/music/California King Bed.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Can I Be Him",
         "album": "",
         "year": "",
@@ -105,8 +105,8 @@ const musicData = [
         "musicPath": "./assets/music/Can I Be Him.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Count Me In",
         "album": "",
         "year": "",
@@ -114,8 +114,8 @@ const musicData = [
         "musicPath": "./assets/music/Count Me In.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Dancing With Your Ghost",
         "album": "",
         "year": "",
@@ -123,8 +123,8 @@ const musicData = [
         "musicPath": "./assets/music/Dancing With Your Ghost.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Dandelions",
         "album": "",
         "year": "",
@@ -132,8 +132,8 @@ const musicData = [
         "musicPath": "./assets/music/Dandelions.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Eastside (with Halsey & Khalid)",
         "album": "",
         "year": "",
@@ -141,8 +141,8 @@ const musicData = [
         "musicPath": "./assets/music/Eastside (with Halsey & Khalid).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Falling",
         "album": "",
         "year": "",
@@ -150,8 +150,8 @@ const musicData = [
         "musicPath": "./assets/music/Falling.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Fly",
         "album": "",
         "year": "",
@@ -159,8 +159,8 @@ const musicData = [
         "musicPath": "./assets/music/Fly.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Gold",
         "album": "",
         "year": "",
@@ -168,8 +168,8 @@ const musicData = [
         "musicPath": "./assets/music/Gold.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
         "album": "",
         "year": "",
@@ -177,8 +177,8 @@ const musicData = [
         "musicPath": "./assets/music/I Don’t Wanna Live Forever (Fifty Shades Darker).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "I Quit Drinking",
         "album": "",
         "year": "",
@@ -186,8 +186,8 @@ const musicData = [
         "musicPath": "./assets/music/I Quit Drinking.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "It's You",
         "album": "",
         "year": "",
@@ -195,8 +195,8 @@ const musicData = [
         "musicPath": "./assets/music/It's You.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Kill Bill",
         "album": "",
         "year": "",
@@ -204,8 +204,8 @@ const musicData = [
         "musicPath": "./assets/music/Kill Bill.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Lose You To Love Me",
         "album": "",
         "year": "",
@@ -213,8 +213,8 @@ const musicData = [
         "musicPath": "./assets/music/Lose You To Love Me.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Malibu Nights",
         "album": "",
         "year": "",
@@ -222,8 +222,8 @@ const musicData = [
         "musicPath": "./assets/music/Malibu Nights.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "My Only One (No Hay Nadie Más)",
         "album": "",
         "year": "",
@@ -231,8 +231,8 @@ const musicData = [
         "musicPath": "./assets/music/My Only One (No Hay Nadie Más).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "No One Compares To You",
         "album": "",
         "year": "",
@@ -240,8 +240,8 @@ const musicData = [
         "musicPath": "./assets/music/No One Compares To You.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Nobody Compares To You (feat. Katie Pearlman)",
         "album": "",
         "year": "",
@@ -249,8 +249,8 @@ const musicData = [
         "musicPath": "./assets/music/Nobody Compares To You (feat. Katie Pearlman).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "On My Way",
         "album": "",
         "year": "",
@@ -258,8 +258,8 @@ const musicData = [
         "musicPath": "./assets/music/On My Way.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Once in a Lifetime",
         "album": "",
         "year": "",
@@ -267,8 +267,8 @@ const musicData = [
         "musicPath": "./assets/music/Once in a Lifetime.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Open Arms (feat. Travis Scott)",
         "album": "",
         "year": "",
@@ -276,8 +276,8 @@ const musicData = [
         "musicPath": "./assets/music/Open Arms (feat. Travis Scott).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Pull Up",
         "album": "",
         "year": "",
@@ -285,8 +285,8 @@ const musicData = [
         "musicPath": "./assets/music/Pull Up.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Remember - Acoustic",
         "album": "",
         "year": "",
@@ -294,8 +294,8 @@ const musicData = [
         "musicPath": "./assets/music/Remember - Acoustic.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
         "album": "",
         "year": "",
@@ -303,8 +303,8 @@ const musicData = [
         "musicPath": "./assets/music/Rewrite The Stars (with James Arthur & Anne-Marie).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Ring",
         "album": "",
         "year": "",
@@ -312,8 +312,8 @@ const musicData = [
         "musicPath": "./assets/music/Ring.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Ruin My Life",
         "album": "",
         "year": "",
@@ -321,8 +321,8 @@ const musicData = [
         "musicPath": "./assets/music/Ruin My Life.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Scars To Your Beautiful",
         "album": "",
         "year": "",
@@ -330,8 +330,8 @@ const musicData = [
         "musicPath": "./assets/music/Scars To Your Beautiful.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Secret Love Song (feat. Jason Derulo)",
         "album": "",
         "year": "",
@@ -339,8 +339,8 @@ const musicData = [
         "musicPath": "./assets/music/Secret Love Song (feat. Jason Derulo).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Shower",
         "album": "",
         "year": "",
@@ -348,8 +348,8 @@ const musicData = [
         "musicPath": "./assets/music/Shower.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Something New",
         "album": "",
         "year": "",
@@ -357,8 +357,8 @@ const musicData = [
         "musicPath": "./assets/music/Something New.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Strawberries & Cigarettes",
         "album": "",
         "year": "",
@@ -366,8 +366,8 @@ const musicData = [
         "musicPath": "./assets/music/Strawberries & Cigarettes.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Stuck with U (with Justin Bieber)",
         "album": "",
         "year": "",
@@ -375,8 +375,8 @@ const musicData = [
         "musicPath": "./assets/music/Stuck with U (with Justin Bieber).mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Superficial Love",
         "album": "",
         "year": "",
@@ -384,8 +384,8 @@ const musicData = [
         "musicPath": "./assets/music/Superficial Love.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Take A Bow",
         "album": "",
         "year": "",
@@ -393,8 +393,8 @@ const musicData = [
         "musicPath": "./assets/music/Take A Bow.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Teenage Mona Lisa",
         "album": "",
         "year": "",
@@ -402,8 +402,8 @@ const musicData = [
         "musicPath": "./assets/music/Teenage Mona Lisa.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "That Should Be Me",
         "album": "",
         "year": "",
@@ -411,8 +411,8 @@ const musicData = [
         "musicPath": "./assets/music/That Should Be Me.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "The Only Exception",
         "album": "",
         "year": "",
@@ -420,8 +420,8 @@ const musicData = [
         "musicPath": "./assets/music/The Only Exception.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "They Just Exist",
         "album": "",
         "year": "",
@@ -429,8 +429,8 @@ const musicData = [
         "musicPath": "./assets/music/They Just Exist.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "This City",
         "album": "",
         "year": "",
@@ -438,8 +438,8 @@ const musicData = [
         "musicPath": "./assets/music/This City.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Too Good At Goodbyes",
         "album": "",
         "year": "",
@@ -447,8 +447,8 @@ const musicData = [
         "musicPath": "./assets/music/Too Good At Goodbyes.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Under The Influence",
         "album": "",
         "year": "",
@@ -456,8 +456,8 @@ const musicData = [
         "musicPath": "./assets/music/Under The Influence.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "When Scars Become Art",
         "album": "",
         "year": "",
@@ -465,8 +465,8 @@ const musicData = [
         "musicPath": "./assets/music/When Scars Become Art.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Without Me",
         "album": "",
         "year": "",
@@ -474,8 +474,8 @@ const musicData = [
         "musicPath": "./assets/music/Without Me.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "Y.O.U.",
         "album": "",
         "year": "",
@@ -483,8 +483,8 @@ const musicData = [
         "musicPath": "./assets/music/Y.O.U..mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "YOUTH",
         "album": "",
         "year": "",
@@ -492,8 +492,8 @@ const musicData = [
         "musicPath": "./assets/music/YOUTH.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "You and I Collide",
         "album": "",
         "year": "",
@@ -501,8 +501,8 @@ const musicData = [
         "musicPath": "./assets/music/You and I Collide.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "deja vu",
         "album": "",
         "year": "",
@@ -510,8 +510,8 @@ const musicData = [
         "musicPath": "./assets/music/deja vu.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "drivers license",
         "album": "",
         "year": "",
@@ -519,8 +519,8 @@ const musicData = [
         "musicPath": "./assets/music/drivers license.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "hate u love u",
         "album": "",
         "year": "",
@@ -528,8 +528,8 @@ const musicData = [
         "musicPath": "./assets/music/hate u love u.mp3"
     },
     {
-        "backgroundImage": "./assets/images/poster-2.jpg",
-        "posterUrl": "./assets/images/poster-2.jpg",
+        "backgroundImage": "./assets/images/image.jpg",
+        "posterUrl": "./assets/images/image.jpg",
         "title": "traitor",
         "album": "",
         "year": "",
