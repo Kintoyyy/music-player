@@ -1,6 +1,48 @@
 'use strict';
 
-
+/**
+ * Keyboard shortcuts
+ */
+document.addEventListener("keydown", function (event) {
+  if (event.code === "ArrowUp") {
+    // Increase volume
+    playerVolumeRange.stepUp();
+    changeVolume();
+  } else if (event.code === "ArrowDown") {
+    // Decrease volume
+    playerVolumeRange.stepDown();
+    changeVolume();
+  }
+  else if (event.code === "Space") {
+    // Play music
+    playMusic()
+  }
+  else if (event.code === "ArrowRight") {
+    // Skip next music
+    skipNext();
+  }
+  else if (event.code === "ArrowLeft") {
+    // Skip prev music
+    skipPrev();
+  }
+  else if (event.code === "KeyM") {
+    // Mute Music
+    muteVolume();
+  }
+  else if (event.code === "KeyS") {
+    // Turn on / off shuffle
+    shuffle();
+  }
+  else if (event.code === "KeyR") {
+    console.log("repeat")
+    // Turn on / off Repeat
+    repeat();
+  }
+  else if (event.code === "Escape") {
+    // Close the tab
+    window.close();
+  }
+});
 
 
 
@@ -72,19 +114,33 @@ addEventOnElements(playlistTogglers, "click", togglePlaylist);
 const playlistItems = document.querySelectorAll("[data-playlist-item]");
 
 let currentMusic = 0;
-let lastPlayedMusic = 0;
+let lastPlayedMusic = localStorage.getItem("lastPlayedMusic") || 0; // Retrieve the last played music from local storage, or set it to 0 if it doesn't exist
 
 const changePlaylistItem = function () {
   playlistItems[lastPlayedMusic].classList.remove("playing");
   playlistItems[currentMusic].classList.add("playing");
 }
 
-addEventOnElements(playlistItems, "click", function () {
+// Function to update the last played music in local storage
+const updateLastPlayedMusic = function () {
+  localStorage.setItem("lastPlayedMusic", lastPlayedMusic);
+}
+
+// Function to handle click event on playlist items
+const handleClick = function () {
   lastPlayedMusic = currentMusic;
   currentMusic = Number(this.dataset.playlistItem);
   changePlaylistItem();
+  updateLastPlayedMusic();
+};
+
+// Add event listeners to playlist items
+playlistItems.forEach(function (item) {
+  item.addEventListener("click", handleClick);
 });
 
+// Initialize the playlist item
+changePlaylistItem();
 
 
 /**
@@ -339,6 +395,16 @@ const changeVolume = function () {
   } else {
     playerVolumeBtn.children[0].textContent = "volume_up";
   }
+
+  // Store the volume value in local storage
+  localStorage.setItem("audioVolume", playerVolumeRange.value);
+};
+
+// Check if a volume value is stored in local storage
+const storedVolume = localStorage.getItem("audioVolume");
+if (storedVolume) {
+  playerVolumeRange.value = storedVolume;
+  audioSource.volume = storedVolume;
 }
 
 playerVolumeRange.addEventListener("input", changeVolume);

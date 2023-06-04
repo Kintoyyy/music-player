@@ -8,6 +8,15 @@ const musicData = [
     {
         "backgroundImage": "",
         "posterUrl": "",
+        "title": "What It Is (Solo Version)",
+        "album": "Deochii",
+        "year": "2023",
+        "artist": "Deochii",
+        "musicPath": "./assets/music/What It Is (Solo Version).mp3"
+    },
+    {
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Area Codes",
         "album": "Kali",
         "year": "2023",
