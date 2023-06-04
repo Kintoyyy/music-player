@@ -24,11 +24,11 @@ const musicData = [
         "musicPath": "./assets/music/10,000 Hours (with Justin Bieber).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "./assets/images/8 Letters.jpg",
+        "posterUrl": "./assets/images/8 Letters.jpg",
         "title": "8 Letters",
-        "album": "",
-        "year": "",
+        "album": "Why Don't We",
+        "year": "2018",
         "artist": "Why Don't We",
         "musicPath": "./assets/music/8 Letters.mp3"
     },

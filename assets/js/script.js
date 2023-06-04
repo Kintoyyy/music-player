@@ -106,7 +106,7 @@ const changePlayerInfo = function () {
   playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
   document.body.style.backgroundImage = `url(${musicData[currentMusic].backgroundImage})`;
   playerTitle.textContent = musicData[currentMusic].title;
-  playerAlbum.textContent = musicData[currentMusic].album;
+  playerAlbum.textContent = (musicData[currentMusic].album != "") ? musicData[currentMusic].album : musicData[currentMusic].artist ;
   playerYear.textContent = musicData[currentMusic].year;
   playerArtist.textContent = musicData[currentMusic].artist;
 
