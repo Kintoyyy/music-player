@@ -6,8 +6,8 @@
 
 const musicData = [
     {
-        "backgroundImage": "./assets/images/Area Codes.jpg",
-        "posterUrl": "./assets/images/Area Codes.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Area Codes",
         "album": "Kali",
         "year": "2023",
@@ -15,8 +15,8 @@ const musicData = [
         "musicPath": "./assets/music/Area Codes.mp3"
     },
     {
-        "backgroundImage": "./assets/images/10,000 Hours (with Justin Bieber).jpg",
-        "posterUrl": "./assets/images/10,000 Hours (with Justin Bieber).jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "10,000 Hours (with Justin Bieber)",
         "album": "Dan + Shay/Justin Bieber",
         "year": "2019",
@@ -24,8 +24,8 @@ const musicData = [
         "musicPath": "./assets/music/10,000 Hours (with Justin Bieber).mp3"
     },
     {
-        "backgroundImage": "./assets/images/8 Letters.jpg",
-        "posterUrl": "./assets/images/8 Letters.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "8 Letters",
         "album": "Why Don't We",
         "year": "2018",
@@ -33,89 +33,89 @@ const musicData = [
         "musicPath": "./assets/music/8 Letters.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "All I Ever Need",
         "album": "",
-        "year": "",
+        "year": "2014",
         "artist": "Austin Mahone",
         "musicPath": "./assets/music/All I Ever Need.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "All I Want - From \"High School Musical: The Musical: The Series\"",
         "album": "",
-        "year": "",
+        "year": "2020",
         "artist": "Olivia Rodrigo/Disney",
         "musicPath": "./assets/music/All I Want - From _High School Musical_ The Musical_ The Series_.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "BRB",
         "album": "",
-        "year": "",
+        "year": "2019",
         "artist": "Luh Kel",
         "musicPath": "./assets/music/BRB.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Be Alright",
         "album": "",
-        "year": "",
+        "year": "2018",
         "artist": "Dean Lewis",
         "musicPath": "./assets/music/Be Alright.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Before You Go",
         "album": "",
-        "year": "",
+        "year": "2019",
         "artist": "Lewis Capaldi",
         "musicPath": "./assets/music/Before You Go.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Boy's a Liar Pt. 2",
         "album": "",
-        "year": "",
+        "year": "2023",
         "artist": "PinkPantheress/Ice Spice",
         "musicPath": "./assets/music/Boy's a Liar Pt. 2.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "California King Bed",
         "album": "",
-        "year": "",
+        "year": "2010",
         "artist": "Rihanna",
         "musicPath": "./assets/music/California King Bed.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Can I Be Him",
         "album": "",
-        "year": "",
+        "year": "2016",
         "artist": "James Arthur",
         "musicPath": "./assets/music/Can I Be Him.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Count Me In",
         "album": "",
-        "year": "",
+        "year": "2015",
         "artist": "Cast - Liv and Maddie",
         "musicPath": "./assets/music/Count Me In.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Dancing With Your Ghost",
         "album": "",
         "year": "",
@@ -123,8 +123,8 @@ const musicData = [
         "musicPath": "./assets/music/Dancing With Your Ghost.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Dandelions",
         "album": "",
         "year": "",
@@ -132,8 +132,8 @@ const musicData = [
         "musicPath": "./assets/music/Dandelions.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Eastside (with Halsey & Khalid)",
         "album": "",
         "year": "",
@@ -141,8 +141,8 @@ const musicData = [
         "musicPath": "./assets/music/Eastside (with Halsey & Khalid).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Falling",
         "album": "",
         "year": "",
@@ -150,8 +150,8 @@ const musicData = [
         "musicPath": "./assets/music/Falling.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Fly",
         "album": "",
         "year": "",
@@ -159,8 +159,8 @@ const musicData = [
         "musicPath": "./assets/music/Fly.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Gold",
         "album": "",
         "year": "",
@@ -168,8 +168,8 @@ const musicData = [
         "musicPath": "./assets/music/Gold.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
         "album": "",
         "year": "",
@@ -177,8 +177,8 @@ const musicData = [
         "musicPath": "./assets/music/I Don’t Wanna Live Forever (Fifty Shades Darker).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "I Quit Drinking",
         "album": "",
         "year": "",
@@ -186,8 +186,8 @@ const musicData = [
         "musicPath": "./assets/music/I Quit Drinking.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "It's You",
         "album": "",
         "year": "",
@@ -195,8 +195,8 @@ const musicData = [
         "musicPath": "./assets/music/It's You.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Kill Bill",
         "album": "",
         "year": "",
@@ -204,8 +204,8 @@ const musicData = [
         "musicPath": "./assets/music/Kill Bill.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Lose You To Love Me",
         "album": "",
         "year": "",
@@ -213,8 +213,8 @@ const musicData = [
         "musicPath": "./assets/music/Lose You To Love Me.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Malibu Nights",
         "album": "",
         "year": "",
@@ -222,8 +222,8 @@ const musicData = [
         "musicPath": "./assets/music/Malibu Nights.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "My Only One (No Hay Nadie Más)",
         "album": "",
         "year": "",
@@ -231,8 +231,8 @@ const musicData = [
         "musicPath": "./assets/music/My Only One (No Hay Nadie Más).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "No One Compares To You",
         "album": "",
         "year": "",
@@ -240,8 +240,8 @@ const musicData = [
         "musicPath": "./assets/music/No One Compares To You.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Nobody Compares To You (feat. Katie Pearlman)",
         "album": "",
         "year": "",
@@ -249,8 +249,8 @@ const musicData = [
         "musicPath": "./assets/music/Nobody Compares To You (feat. Katie Pearlman).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "On My Way",
         "album": "",
         "year": "",
@@ -258,8 +258,8 @@ const musicData = [
         "musicPath": "./assets/music/On My Way.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Once in a Lifetime",
         "album": "",
         "year": "",
@@ -267,8 +267,8 @@ const musicData = [
         "musicPath": "./assets/music/Once in a Lifetime.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Open Arms (feat. Travis Scott)",
         "album": "",
         "year": "",
@@ -276,8 +276,8 @@ const musicData = [
         "musicPath": "./assets/music/Open Arms (feat. Travis Scott).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Pull Up",
         "album": "",
         "year": "",
@@ -285,8 +285,8 @@ const musicData = [
         "musicPath": "./assets/music/Pull Up.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Remember - Acoustic",
         "album": "",
         "year": "",
@@ -294,8 +294,8 @@ const musicData = [
         "musicPath": "./assets/music/Remember - Acoustic.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
         "album": "",
         "year": "",
@@ -303,8 +303,8 @@ const musicData = [
         "musicPath": "./assets/music/Rewrite The Stars (with James Arthur & Anne-Marie).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Ring",
         "album": "",
         "year": "",
@@ -312,8 +312,8 @@ const musicData = [
         "musicPath": "./assets/music/Ring.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Ruin My Life",
         "album": "",
         "year": "",
@@ -321,8 +321,8 @@ const musicData = [
         "musicPath": "./assets/music/Ruin My Life.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Scars To Your Beautiful",
         "album": "",
         "year": "",
@@ -330,8 +330,8 @@ const musicData = [
         "musicPath": "./assets/music/Scars To Your Beautiful.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Secret Love Song (feat. Jason Derulo)",
         "album": "",
         "year": "",
@@ -339,8 +339,8 @@ const musicData = [
         "musicPath": "./assets/music/Secret Love Song (feat. Jason Derulo).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Shower",
         "album": "",
         "year": "",
@@ -348,8 +348,8 @@ const musicData = [
         "musicPath": "./assets/music/Shower.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Something New",
         "album": "",
         "year": "",
@@ -357,8 +357,8 @@ const musicData = [
         "musicPath": "./assets/music/Something New.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Strawberries & Cigarettes",
         "album": "",
         "year": "",
@@ -366,8 +366,8 @@ const musicData = [
         "musicPath": "./assets/music/Strawberries & Cigarettes.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Stuck with U (with Justin Bieber)",
         "album": "",
         "year": "",
@@ -375,8 +375,8 @@ const musicData = [
         "musicPath": "./assets/music/Stuck with U (with Justin Bieber).mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Superficial Love",
         "album": "",
         "year": "",
@@ -384,8 +384,8 @@ const musicData = [
         "musicPath": "./assets/music/Superficial Love.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Take A Bow",
         "album": "",
         "year": "",
@@ -393,8 +393,8 @@ const musicData = [
         "musicPath": "./assets/music/Take A Bow.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Teenage Mona Lisa",
         "album": "",
         "year": "",
@@ -402,8 +402,8 @@ const musicData = [
         "musicPath": "./assets/music/Teenage Mona Lisa.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "That Should Be Me",
         "album": "",
         "year": "",
@@ -411,8 +411,8 @@ const musicData = [
         "musicPath": "./assets/music/That Should Be Me.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "The Only Exception",
         "album": "",
         "year": "",
@@ -420,8 +420,8 @@ const musicData = [
         "musicPath": "./assets/music/The Only Exception.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "They Just Exist",
         "album": "",
         "year": "",
@@ -429,8 +429,8 @@ const musicData = [
         "musicPath": "./assets/music/They Just Exist.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "This City",
         "album": "",
         "year": "",
@@ -438,8 +438,8 @@ const musicData = [
         "musicPath": "./assets/music/This City.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Too Good At Goodbyes",
         "album": "",
         "year": "",
@@ -447,8 +447,8 @@ const musicData = [
         "musicPath": "./assets/music/Too Good At Goodbyes.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Under The Influence",
         "album": "",
         "year": "",
@@ -456,8 +456,8 @@ const musicData = [
         "musicPath": "./assets/music/Under The Influence.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "When Scars Become Art",
         "album": "",
         "year": "",
@@ -465,8 +465,8 @@ const musicData = [
         "musicPath": "./assets/music/When Scars Become Art.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Without Me",
         "album": "",
         "year": "",
@@ -474,8 +474,8 @@ const musicData = [
         "musicPath": "./assets/music/Without Me.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "Y.O.U.",
         "album": "",
         "year": "",
@@ -483,8 +483,8 @@ const musicData = [
         "musicPath": "./assets/music/Y.O.U..mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "YOUTH",
         "album": "",
         "year": "",
@@ -492,8 +492,8 @@ const musicData = [
         "musicPath": "./assets/music/YOUTH.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "You and I Collide",
         "album": "",
         "year": "",
@@ -501,8 +501,8 @@ const musicData = [
         "musicPath": "./assets/music/You and I Collide.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "deja vu",
         "album": "",
         "year": "",
@@ -510,8 +510,8 @@ const musicData = [
         "musicPath": "./assets/music/deja vu.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "drivers license",
         "album": "",
         "year": "",
@@ -519,8 +519,8 @@ const musicData = [
         "musicPath": "./assets/music/drivers license.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "hate u love u",
         "album": "",
         "year": "",
@@ -528,8 +528,8 @@ const musicData = [
         "musicPath": "./assets/music/hate u love u.mp3"
     },
     {
-        "backgroundImage": "./assets/images/image.jpg",
-        "posterUrl": "./assets/images/image.jpg",
+        "backgroundImage": "",
+        "posterUrl": "",
         "title": "traitor",
         "album": "",
         "year": "",

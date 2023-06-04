@@ -28,7 +28,7 @@ for (let i = 0, len = musicData.length; i < len; i++) {
   playlist.innerHTML += `
   <li>
     <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-      <img src="${musicData[i].posterUrl}" width="800" height="800" alt="${musicData[i].title} Album Poster"
+      <img src="${(musicData[i].posterUrl != "") ? musicData[i].posterUrl : './assets/images/' + musicData[i].title + '.jpg'} " width="800" height="800" alt="${musicData[i].title} Album Poster"
         class="img-cover">
 
       <div class="item-icon">
@@ -102,11 +102,11 @@ const playerArtist = document.querySelector("[data-artist]");
 const audioSource = new Audio(musicData[currentMusic].musicPath);
 
 const changePlayerInfo = function () {
-  playerBanner.src = musicData[currentMusic].posterUrl;
+  playerBanner.src = (musicData[currentMusic].posterUrl != "") ? musicData[currentMusic].posterUrl : "./assets/images/" + musicData[currentMusic].title + ".jpg";
   playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
-  document.body.style.backgroundImage = `url(${musicData[currentMusic].backgroundImage})`;
+  document.body.style.backgroundImage = (musicData[currentMusic].backgroundImage != "") ? `url(${musicData[currentMusic].backgroundImage})` : `url('./assets/images/${musicData[currentMusic].title}.jpg')`;
   playerTitle.textContent = musicData[currentMusic].title;
-  playerAlbum.textContent = (musicData[currentMusic].album != "") ? musicData[currentMusic].album : musicData[currentMusic].artist ;
+  playerAlbum.textContent = (musicData[currentMusic].album != "") ? musicData[currentMusic].album : musicData[currentMusic].artist;
   playerYear.textContent = musicData[currentMusic].year;
   playerArtist.textContent = musicData[currentMusic].artist;
 
@@ -224,6 +224,8 @@ const isMusicEnd = function () {
     playerSeekRange.value = audioSource.currentTime;
     playerRunningTime.textContent = getTimecode(audioSource.currentTime);
     updateRangeFill();
+
+    skipNext()
   }
 }
 
