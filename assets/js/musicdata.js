@@ -4,7 +4,15 @@
 
 
 
-const musicData = [
+const musicData = [    {
+        "backgroundImage": "",
+        "posterUrl": "",
+        "title": "Dilemma",
+        "album": "Nellyville",
+        "year": "2002",
+        "artist": "Nellyville",
+        "musicPath": "./assets/music/Dilemma..mp3"
+    },
     {
         "backgroundImage": "",
         "posterUrl": "",
