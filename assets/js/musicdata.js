@@ -11,7 +11,7 @@ const musicData = [    {
         "album": "Nellyville",
         "year": "2002",
         "artist": "Nellyville",
-        "musicPath": "./assets/music/Dilemma..mp3"
+        "musicPath": "./assets/music/Dilemma.mp3"
     },
     {
         "backgroundImage": "",
