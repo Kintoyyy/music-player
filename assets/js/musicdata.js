@@ -3,8 +3,18 @@
  */
 
 
+const musicData = [
+    {
 
-const musicData = [    {
+        "backgroundImage": "",
+        "posterUrl": "",
+        "title": "Lush Life",
+        "album": "So Good",
+        "year": "2017",
+        "artist": "Zara Larsson",
+        "musicPath": "./assets/music/Lush Life.mp3"
+    }, {
+
         "backgroundImage": "",
         "posterUrl": "",
         "title": "Dilemma",
