@@ -75,13 +75,15 @@ searchInput.addEventListener('input', function () {
   renderPlaylist();
 });
 
+
+
 function renderPlaylist() {
   playlist.innerHTML = ''; // Clear existing playlist
   for (let i = 0; i < filteredPlaylist.length; i++) {
     playlist.innerHTML += `
       <li>
         <button class="music-item ${i === lastPlayedMusicLocal ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-          <img src="${(filteredPlaylist[i].posterUrl !== "") ? filteredPlaylist[i].posterUrl : './assets/images/' + filteredPlaylist[i].title + '.jpg'}" width="800" height="800" alt="${filteredPlaylist[i].title} Album Poster" class="img-cover">
+          <img src="${'./assets/images/' + filteredPlaylist[i].title + '.jpg'}" width="800" height="800" alt="${filteredPlaylist[i].title} Album Poster" class="img-cover">
           <div class="item-icon">
             <span class="material-symbols-rounded">equalizer</span>
           </div>
@@ -94,31 +96,6 @@ function renderPlaylist() {
 // Initial rendering of the full playlist
 filteredPlaylist = musicData;
 renderPlaylist();
-
-
-/**
- * PLAYLIST
- * 
- * add all music in playlist, from 'musicData'
- */
-
-// const playlist = document.querySelector("[data-music-list]");
-
-// for (let i = 0, len = musicData.length; i < len; i++) {
-//   playlist.innerHTML += `
-//   <li>
-//     <button class="music-item ${i === lastPlayedMusicLocal ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
-//       <img src="${(musicData[i].posterUrl != "") ? musicData[i].posterUrl : './assets/images/' + musicData[i].title + '.jpg'} " width="800" height="800" alt="${musicData[i].title} Album Poster"
-//         class="img-cover">
-
-//       <div class="item-icon">
-//         <span class="material-symbols-rounded">equalizer</span>
-//       </div>
-//     </button>
-//   </li>
-//   `;
-// }
-
 
 
 /**
@@ -192,37 +169,107 @@ const playerAlbum = document.querySelector("[data-album]");
 const playerYear = document.querySelector("[data-year]");
 const playerArtist = document.querySelector("[data-artist]");
 
-const audioSource = new Audio(musicData[currentMusic].musicPath);
+const musicPathName = './assets/music/' + musicData[currentMusic].title + '.mp3'
+
+const audioSource = new Audio(musicPathName);
 
 const changePlayerInfo = function () {
-  playerBanner.src = (musicData[currentMusic].posterUrl != "") ? musicData[currentMusic].posterUrl : "./assets/images/" + musicData[currentMusic].title + ".jpg";
-  playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
-  document.body.style.backgroundImage = (musicData[currentMusic].backgroundImage != "") ? `url(${musicData[currentMusic].backgroundImage})` : `url('./assets/images/${musicData[currentMusic].title}.jpg')`;
-  playerTitle.textContent = musicData[currentMusic].title;
-  playerAlbum.textContent = (musicData[currentMusic].album != "") ? musicData[currentMusic].album : musicData[currentMusic].artist;
-  playerYear.textContent = musicData[currentMusic].year;
-  playerArtist.textContent = musicData[currentMusic].artist;
+  var songURL = './assets/music/' + musicData[currentMusic].title + '.mp3';
 
-  audioSource.src = musicData[currentMusic].musicPath;
+  fetch(songURL)
+    .then(response => response.arrayBuffer())
+    .then(arrayBuffer => {
+      var blob = new Blob([arrayBuffer], { type: 'audio/mpeg' });
+      var fileReader = new FileReader();
+      fileReader.onload = function (event) {
+        var arrayBuffer = event.target.result;
+        jsmediatags.read(blob, {
+          onSuccess: function (tag) {
+            console.log(tag);
+            // Array buffer to base64
+            const data = tag.tags.picture.data;
+            const format = tag.tags.picture.format;
+            let base64String = "";
+            for (let i = 0; i < data.length; i++) {
+              base64String += String.fromCharCode(data[i]);
+            }
+            // Output the metadata
+            playerBanner.src = `data:${format};base64,${btoa(base64String)}`;
+            document.body.style.backgroundImage = `url('data:${format};base64,${btoa(base64String)}')`;
+            playerTitle.textContent = tag.tags.title;
+            playerArtist.textContent = tag.tags.artist;
+            playerAlbum.textContent = tag.tags.album;
+            playerYear.textContent = tag.tags.year;
 
+          },
+          onError: function (error) {
+            console.log(error);
+          }
+        });
+      };
+      fileReader.onerror = function (error) {
+        console.log('Error reading file:', error);
+      };
+      fileReader.readAsArrayBuffer(blob);
+    })
+    .catch(error => {
+      console.log('Error fetching file:', error);
+    });
+
+
+  audioSource.src = songURL;
   audioSource.addEventListener("loadeddata", updateDuration);
   playMusic();
 }
 
 
-const loadLastPlayed = function () {
-  playerBanner.src = (musicData[currentMusic].posterUrl != "") ? musicData[currentMusic].posterUrl : "./assets/images/" + musicData[currentMusic].title + ".jpg";
-  playerBanner.setAttribute("alt", `${musicData[currentMusic].title} Album Poster`);
-  document.body.style.backgroundImage = (musicData[currentMusic].backgroundImage != "") ? `url(${musicData[currentMusic].backgroundImage})` : `url('./assets/images/${musicData[currentMusic].title}.jpg')`;
-  playerTitle.textContent = musicData[currentMusic].title;
-  playerAlbum.textContent = (musicData[currentMusic].album != "") ? musicData[currentMusic].album : musicData[currentMusic].artist;
-  playerYear.textContent = musicData[currentMusic].year;
-  playerArtist.textContent = musicData[currentMusic].artist;
+// const loadLastPlayed = function () {
+//   var songURL = './assets/music/' + musicData[currentMusic].title + '.mp3';
 
-  audioSource.src = musicData[currentMusic].musicPath;
+//   fetch(songURL)
+//     .then(response => response.arrayBuffer())
+//     .then(arrayBuffer => {
+//       var blob = new Blob([arrayBuffer], { type: 'audio/mpeg' });
+//       var fileReader = new FileReader();
+//       fileReader.onload = function (event) {
+//         var arrayBuffer = event.target.result;
+//         jsmediatags.read(blob, {
+//           onSuccess: function (tag) {
+//             console.log(tag);
+//             // Array buffer to base64
+//             const data = tag.tags.picture.data;
+//             const format = tag.tags.picture.format;
+//             let base64String = "";
+//             for (let i = 0; i < data.length; i++) {
+//               base64String += String.fromCharCode(data[i]);
+//             }
+//             // Output the metadata
+//             playerBanner.src = `data:${format};base64,${btoa(base64String)}`;
+//             document.body.style.backgroundImage = `url('data:${format};base64,${btoa(base64String)}')`;
+//             playerTitle.textContent = tag.tags.title;
+//             playerArtist.textContent = tag.tags.artist;
+//             playerAlbum.textContent = tag.tags.album;
+//             playerYear.textContent = tag.tags.year;
+//           },
+//           onError: function (error) {
+//             console.log(error);
+//           }
+//         });
+//       };
+//       fileReader.onerror = function (error) {
+//         console.log('Error reading file:', error);
+//       };
+//       fileReader.readAsArrayBuffer(blob);
+//     })
+//     .catch(error => {
+//       console.log('Error fetching file:', error);
+//     });
 
-  audioSource.addEventListener("loadeddata", updateDuration);
-}
+
+//   audioSource.src = songURL;
+
+//   audioSource.addEventListener("loadeddata", updateDuration);
+// }
 
 addEventOnElements(playlistItems, "click", changePlayerInfo);
 

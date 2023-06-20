@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="/assets/js/jsmediatags.min.js"></script>
+
+<body>
+    <input type="file" webkitdirectory="" directory="">
+    <input type="file" id="song-input" accept=".mp3, .wav">
+
+    <img id="cover">
+    <p id="title"></p>
+    <p id="artist"></p>
+    <p id="album"></p>
+    <p id="genre"></p>
+
+    <code name="" id="output" cols="30" rows="10"></code>
+</body>
+<script>
+    let dataObj = []; // Array to store file metadata
+
+    document.querySelector('input').addEventListener('change', async (e) => {
+        for (let i = 0; i < e.target.files.length; i++) {
+            const file = e.target.files[i];
+            const tag = await getMetadata(file); // Get metadata using a function that returns a promise
+            if (tag) {
+                dataObj.push({
+                    title: tag.tags.title,
+                    artist: tag.tags.artist,
+                    album: tag.tags.album,
+                    year: tag.tags.year,
+                    dateAdded: file.lastModifiedDate
+                });
+            }
+        }
+
+        dataObj.sort((a, b) => new Date(a.dateAdded) - new Date(b.dateAdded));
+        dataObj.reverse();
+
+        console.log(JSON.stringify(dataObj, null, 2));
+
+
+        const jsonData = 'const musicData = ' + JSON.stringify(dataObj, null, 2);
+        document.getElementById('output').innerText = jsonData;
+        // Save the data to a file
+        const blob = new Blob([jsonData], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'musicdata.js';
+        a.click();
+    });
+
+    function getMetadata(file) {
+        return new Promise((resolve, reject) => {
+            jsmediatags.read(file, {
+                onSuccess: function (tag) {
+                    resolve(tag);
+                },
+                onError: function (error) {
+                    console.log(error);
+                    resolve(null);
+                }
+            });
+        });
+    }
+
+
+
+    document.querySelector("#song-input").addEventListener("change", (event) => {
+
+        const song = event.target.files[0]
+        jsmediatags.read(song, {
+            onSuccess: function (tag) {
+                console.log(tag)
+                // Array buffer to base64
+                const data = tag.tags.picture.data
+                const format = tag.tags.picture.format
+                let base64String = ""
+                for (let i = 0; i < data.length; i++) {
+                    base64String += String.fromCharCode(data[i])
+                }
+                // Output the metadata
+                document.querySelector("#cover").src = `data:${format};base64,${window.btoa(base64String)}`
+                document.querySelector("#title").textContent = tag.tags.title
+                document.querySelector("#artist").textContent = tag.tags.artist
+                document.querySelector("#album").textContent = tag.tags.album
+                document.querySelector("#genre").textContent = tag.tags.genre
+            },
+            onError: function (error) {
+                console.log(error)
+            }
+        })
+    })
+
+</script>
+
+</html>

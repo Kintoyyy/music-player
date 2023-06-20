@@ -1,566 +1,534 @@
-/**
- * all music information
- */
-
-
 const musicData = [
     {
-
-        "backgroundImage": "",
-        "posterUrl": "",
+        "title": "Angel",
+        "artist": "Shaggy/Rayvon",
+        "album": "Hot Shot",
+        "year": "2000",
+        "dateAdded": "2023-06-17T06:50:16.000Z"
+    },
+    {
+        "title": "It Wasn't Me",
+        "artist": "Shaggy/Rik Rok",
+        "album": "Hot Shot",
+        "year": "2000",
+        "dateAdded": "2023-06-17T06:50:12.000Z"
+    },
+    {
+        "title": "YK",
+        "artist": "Cean Jr.",
+        "album": "YK",
+        "year": "2021",
+        "dateAdded": "2023-06-17T06:49:54.000Z"
+    },
+    {
+        "title": "Say Goodbye",
+        "artist": "Chris Brown",
+        "album": "Chris Brown (Expanded Edition)",
+        "year": "2005",
+        "dateAdded": "2023-06-17T06:49:44.000Z"
+    },
+    {
+        "title": "Do You Mind",
+        "artist": "Vedo/Chris Brown",
+        "album": "Do You Mind",
+        "year": "2023",
+        "dateAdded": "2023-06-17T06:47:22.000Z"
+    },
+    {
+        "title": "Lay It Down",
+        "artist": "Lloyd",
+        "album": "King Of Hearts",
+        "year": "2011",
+        "dateAdded": "2023-06-17T06:43:52.000Z"
+    },
+    {
+        "title": "BURN",
+        "artist": "Donnalyn",
+        "album": "BURN",
+        "year": "2023",
+        "dateAdded": "2023-06-17T06:43:38.000Z"
+    },
+    {
+        "title": "Symphony (feat. Zara Larsson)",
+        "artist": "Clean Bandit/Zara Larsson",
+        "album": "Symphony (feat. Zara Larsson)",
+        "year": "2017",
+        "dateAdded": "2023-06-17T06:42:58.000Z"
+    },
+    {
+        "title": "Rather Be (feat. Jess Glynne)",
+        "artist": "Clean Bandit/Jess Glynne",
+        "album": "Rather Be (feat. Jess Glynne)",
+        "year": "2014",
+        "dateAdded": "2023-06-17T06:42:36.000Z"
+    },
+    {
+        "title": "Somebody's Pleasure",
+        "artist": "Aziz Hedra",
+        "album": "Somebody's Pleasure",
+        "year": "2023",
+        "dateAdded": "2023-06-17T06:40:00.000Z"
+    },
+    {
+        "title": "Freaky Friday (feat. Chris Brown)",
+        "artist": "Lil Dicky/Chris Brown",
+        "album": "Freaky Friday (feat. Chris Brown)",
+        "year": "2018",
+        "dateAdded": "2023-06-17T06:39:26.000Z"
+    },
+    {
+        "title": "Post To Be (feat. Rileyy Lanez)",
+        "artist": "Lil Tjay/Rileyy Lanez",
+        "album": "True 2 Myself",
+        "year": "2019",
+        "dateAdded": "2023-06-17T06:39:02.000Z"
+    },
+    {
+        "title": "Ayo",
+        "artist": "Chris Brown/Tyga",
+        "album": "Fan of A Fan The Album (Expanded Edition)",
+        "year": "2015",
+        "dateAdded": "2023-06-17T06:38:38.000Z"
+    },
+    {
+        "title": "Post to Be (feat. Chris Brown & Jhene Aiko)",
+        "artist": "Omarion/Chris Brown/Jhené Aiko",
+        "album": "Sex Playlist",
+        "year": "2014",
+        "dateAdded": "2023-06-17T06:38:16.000Z"
+    },
+    {
         "title": "Lush Life",
+        "artist": "Zara Larsson",
         "album": "So Good",
         "year": "2017",
-        "artist": "Zara Larsson",
-        "musicPath": "./assets/music/Lush Life.mp3"
-    }, {
-
-        "backgroundImage": "",
-        "posterUrl": "",
+        "dateAdded": "2023-06-13T10:42:33.157Z"
+    },
+    {
         "title": "Dilemma",
+        "artist": "Nelly/Kelly Rowland",
         "album": "Nellyville",
         "year": "2002",
-        "artist": "Nellyville",
-        "musicPath": "./assets/music/Dilemma.mp3"
+        "dateAdded": "2023-06-05T12:53:20.277Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
         "title": "What It Is (Solo Version)",
-        "album": "Deochii",
+        "artist": "Doechii",
+        "album": "What It Is (Versions)",
         "year": "2023",
-        "artist": "Deochii",
-        "musicPath": "./assets/music/What It Is (Solo Version).mp3"
+        "dateAdded": "2023-06-04T13:41:59.151Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
         "title": "Area Codes",
-        "album": "Kali",
-        "year": "2023",
         "artist": "Kali",
-        "musicPath": "./assets/music/Area Codes.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "10,000 Hours (with Justin Bieber)",
-        "album": "Dan + Shay/Justin Bieber",
-        "year": "2019",
-        "artist": "Dan + Shay/Justin Bieber",
-        "musicPath": "./assets/music/10,000 Hours (with Justin Bieber).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "8 Letters",
-        "album": "Why Don't We",
-        "year": "2018",
-        "artist": "Why Don't We",
-        "musicPath": "./assets/music/8 Letters.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "All I Ever Need",
-        "album": "",
-        "year": "2014",
-        "artist": "Austin Mahone",
-        "musicPath": "./assets/music/All I Ever Need.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "All I Want - From High School Musical The Musical The Series",
-        "album": "",
-        "year": "2020",
-        "artist": "Olivia Rodrigo/Disney",
-        "musicPath": "./assets/music/All I Want - From _High School Musical_ The Musical_ The Series_.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "BRB",
-        "album": "",
-        "year": "2019",
-        "artist": "Luh Kel",
-        "musicPath": "./assets/music/BRB.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Be Alright",
-        "album": "",
-        "year": "2018",
-        "artist": "Dean Lewis",
-        "musicPath": "./assets/music/Be Alright.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Before You Go",
-        "album": "",
-        "year": "2019",
-        "artist": "Lewis Capaldi",
-        "musicPath": "./assets/music/Before You Go.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Boy's a Liar Pt. 2",
-        "album": "",
+        "album": "Area Codes",
         "year": "2023",
-        "artist": "PinkPantheress/Ice Spice",
-        "musicPath": "./assets/music/Boy's a Liar Pt. 2.mp3"
+        "dateAdded": "2023-06-04T12:29:39.247Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "California King Bed",
-        "album": "",
-        "year": "2010",
-        "artist": "Rihanna",
-        "musicPath": "./assets/music/California King Bed.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Can I Be Him",
-        "album": "",
-        "year": "2016",
-        "artist": "James Arthur",
-        "musicPath": "./assets/music/Can I Be Him.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Count Me In",
-        "album": "",
-        "year": "2015",
-        "artist": "Cast - Liv and Maddie",
-        "musicPath": "./assets/music/Count Me In.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Dancing With Your Ghost",
-        "album": "",
-        "year": "2019",
-        "artist": "Sasha Alex Sloan",
-        "musicPath": "./assets/music/Dancing With Your Ghost.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Dandelions",
-        "album": "",
-        "year": "2017",
-        "artist": "Ruth B.",
-        "musicPath": "./assets/music/Dandelions.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Eastside (with Halsey & Khalid)",
-        "album": "",
-        "year": "2018",
-        "artist": "benny blanco/Halsey/Khalid",
-        "musicPath": "./assets/music/Eastside (with Halsey & Khalid).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Falling",
-        "album": "",
-        "year": "2019",
-        "artist": "Harry Styles",
-        "musicPath": "./assets/music/Falling.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Fly",
-        "album": "",
-        "year": "2010",
-        "artist": "Nicki Minaj/Rihanna",
-        "musicPath": "./assets/music/Fly.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Gold",
-        "album": "",
-        "year": "",
-        "artist": "Kiiara",
-        "musicPath": "./assets/music/Gold.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-        "album": "",
-        "year": "2016",
-        "artist": "ZAYN/Taylor Swift",
-        "musicPath": "./assets/music/I Don’t Wanna Live Forever (Fifty Shades Darker).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "I Quit Drinking",
-        "album": "",
-        "year": "",
-        "artist": "Kelsea Ballerini/LANY",
-        "musicPath": "./assets/music/I Quit Drinking.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "It's You",
-        "album": "",
-        "year": "2019",
-        "artist": "Ali Gatie",
-        "musicPath": "./assets/music/It's You.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Kill Bill",
-        "album": "",
-        "year": "2022",
-        "artist": "SZA",
-        "musicPath": "./assets/music/Kill Bill.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Lose You To Love Me",
-        "album": "",
-        "year": "2020",
-        "artist": "Selena Gomez",
-        "musicPath": "./assets/music/Lose You To Love Me.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Malibu Nights",
-        "album": "",
-        "year": "2020",
-        "artist": "LANY",
-        "musicPath": "./assets/music/Malibu Nights.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "My Only One (No Hay Nadie Más)",
-        "album": "",
-        "year": "2021",
-        "artist": "Sebastian Yatra/Isabela Merced",
-        "musicPath": "./assets/music/My Only One (No Hay Nadie Más).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "No One Compares To You",
-        "album": "",
-        "year": "2018",
-        "artist": "Jack & Jack",
-        "musicPath": "./assets/music/No One Compares To You.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Nobody Compares To You (feat. Katie Pearlman)",
-        "album": "",
-        "year": "2018",
-        "artist": "Gryffin/Katie Pearlman",
-        "musicPath": "./assets/music/Nobody Compares To You (feat. Katie Pearlman).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "On My Way",
-        "album": "",
-        "year": "2013",
-        "artist": "Illijah",
-        "musicPath": "./assets/music/On My Way.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Once in a Lifetime",
-        "album": "",
-        "year": "2009",
-        "artist": "Freestyle",
-        "musicPath": "./assets/music/Once in a Lifetime.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Open Arms (feat. Travis Scott)",
-        "album": "",
-        "year": "2022",
-        "artist": "SZA/Travis Scott",
-        "musicPath": "./assets/music/Open Arms (feat. Travis Scott).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Pull Up",
-        "album": "",
-        "year": "2019",
-        "artist": "Luh Kel",
-        "musicPath": "./assets/music/Pull Up.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Remember - Acoustic",
-        "album": "",
-        "year": "2021",
-        "artist": "Becky Hill",
-        "musicPath": "./assets/music/Remember - Acoustic.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
-        "album": "",
-        "year": "2018",
-        "artist": "James Arthur/Anne-Marie",
-        "musicPath": "./assets/music/Rewrite The Stars (with James Arthur & Anne-Marie).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Ring",
-        "album": "",
-        "year": "2020",
-        "artist": "Selena Gomez",
-        "musicPath": "./assets/music/Ring.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Ruin My Life",
-        "album": "",
-        "year": "2021",
-        "artist": "Zara Larsson",
-        "musicPath": "./assets/music/Ruin My Life.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Scars To Your Beautiful",
-        "album": "",
-        "year": "2016",
-        "artist": "Alessia Cara",
-        "musicPath": "./assets/music/Scars To Your Beautiful.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Secret Love Song (feat. Jason Derulo)",
-        "album": "",
-        "year": "2015",
-        "artist": "Little Mix/Jason Derulo",
-        "musicPath": "./assets/music/Secret Love Song (feat. Jason Derulo).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Shower",
-        "album": "",
-        "year": "2014",
-        "artist": "Becky G",
-        "musicPath": "./assets/music/Shower.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
         "title": "Something New",
-        "album": "",
-        "year": "2016",
         "artist": "Zendaya/Chris Brown",
-        "musicPath": "./assets/music/Something New.mp3"
+        "album": "Something New",
+        "year": "2016",
+        "dateAdded": "2023-06-04T02:19:48.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Strawberries & Cigarettes",
-        "album": "",
+        "title": "Open Arms (feat. Travis Scott)",
+        "artist": "SZA/Travis Scott",
+        "album": "SOS",
+        "year": "2022",
+        "dateAdded": "2023-06-04T02:19:38.000Z"
+    },
+    {
+        "title": "Shower",
+        "artist": "Becky G",
+        "album": "Shower",
+        "year": "2014",
+        "dateAdded": "2023-06-04T02:19:34.000Z"
+    },
+    {
+        "title": "Gold",
+        "artist": "Kiiara",
+        "album": "low kii savage",
+        "year": "2016",
+        "dateAdded": "2023-06-04T02:19:24.000Z"
+    },
+    {
+        "title": "Eastside (with Halsey & Khalid)",
+        "artist": "benny blanco/Halsey/Khalid",
+        "album": "Eastside (with Halsey & Khalid)",
         "year": "2018",
-        "artist": "Troye Sivan",
-        "musicPath": "./assets/music/Strawberries & Cigarettes.mp3"
+        "dateAdded": "2023-06-04T02:19:14.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Stuck with U (with Justin Bieber)",
-        "album": "",
-        "year": "2020",
-        "artist": "Ariana Grande/Justin Bieber",
-        "musicPath": "./assets/music/Stuck with U (with Justin Bieber).mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Superficial Love",
-        "album": "",
-        "year": "",
-        "artist": "Ruth B.",
-        "musicPath": "./assets/music/Superficial Love.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Take A Bow",
-        "album": "",
-        "year": "",
-        "artist": "Rihanna",
-        "musicPath": "./assets/music/Take A Bow.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Teenage Mona Lisa",
-        "album": "",
-        "year": "",
-        "artist": "Alfie Castley",
-        "musicPath": "./assets/music/Teenage Mona Lisa.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "That Should Be Me",
-        "album": "",
-        "year": "",
-        "artist": "Justin Bieber",
-        "musicPath": "./assets/music/That Should Be Me.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "The Only Exception",
-        "album": "",
-        "year": "",
-        "artist": "Paramore",
-        "musicPath": "./assets/music/The Only Exception.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "They Just Exist",
-        "album": "",
-        "year": "",
-        "artist": "Gatton/Kennedy Brown",
-        "musicPath": "./assets/music/They Just Exist.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "This City",
-        "album": "",
-        "year": "",
-        "artist": "Sam Fischer",
-        "musicPath": "./assets/music/This City.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Too Good At Goodbyes",
-        "album": "",
-        "year": "",
-        "artist": "Sam Smith",
-        "musicPath": "./assets/music/Too Good At Goodbyes.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
         "title": "Under The Influence",
-        "album": "",
-        "year": "",
         "artist": "Chris Brown",
-        "musicPath": "./assets/music/Under The Influence.mp3"
+        "album": "Indigo (Extended)",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:19:08.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "When Scars Become Art",
-        "album": "",
-        "year": "",
-        "artist": "Gatton/Brooke Young",
-        "musicPath": "./assets/music/When Scars Become Art.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Without Me",
-        "album": "",
-        "year": "",
-        "artist": "Halsey",
-        "musicPath": "./assets/music/Without Me.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "Y.O.U.",
-        "album": "",
-        "year": "",
-        "artist": "Luh Kel",
-        "musicPath": "./assets/music/Y.O.U..mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "YOUTH",
-        "album": "",
-        "year": "",
-        "artist": "Troye Sivan",
-        "musicPath": "./assets/music/YOUTH.mp3"
-    },
-    {
-        "backgroundImage": "",
-        "posterUrl": "",
         "title": "You and I Collide",
-        "album": "",
-        "year": "",
         "artist": "The Time Keepers",
-        "musicPath": "./assets/music/You and I Collide.mp3"
+        "album": "You and I Collide",
+        "year": "2014",
+        "dateAdded": "2023-06-04T02:18:58.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "deja vu",
-        "album": "",
-        "year": "",
-        "artist": "Olivia Rodrigo",
-        "musicPath": "./assets/music/deja vu.mp3"
+        "title": "Count Me In",
+        "artist": "Cast - Liv and Maddie",
+        "album": "Liv and Maddie (Music from the TV Series)",
+        "year": "2015",
+        "dateAdded": "2023-06-04T02:18:44.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "drivers license",
-        "album": "",
-        "year": "",
-        "artist": "Olivia Rodrigo",
-        "musicPath": "./assets/music/drivers license.mp3"
+        "title": "When Scars Become Art",
+        "artist": "Gatton/Brooke Young",
+        "album": "...When Scars Become Art",
+        "year": "2018",
+        "dateAdded": "2023-06-04T02:18:36.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
+        "title": "Teenage Mona Lisa",
+        "artist": "Alfie Castley",
+        "album": "Teenage Mona Lisa",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:18:20.000Z"
+    },
+    {
+        "title": "YOUTH",
+        "artist": "Troye Sivan",
+        "album": "Blue Neighbourhood (Deluxe)",
+        "year": "2015",
+        "dateAdded": "2023-06-04T02:18:10.000Z"
+    },
+    {
+        "title": "The Only Exception",
+        "artist": "Paramore",
+        "album": "Brand New Eyes",
+        "year": "2009",
+        "dateAdded": "2023-06-04T02:18:00.000Z"
+    },
+    {
+        "title": "They Just Exist",
+        "artist": "Gatton/Kennedy Brown",
+        "album": "They Just Exist",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:17:48.000Z"
+    },
+    {
+        "title": "Secret Love Song (feat. Jason Derulo)",
+        "artist": "Little Mix/Jason Derulo",
+        "album": "Get Weird (Expanded Edition)",
+        "year": "2015",
+        "dateAdded": "2023-06-04T02:17:30.000Z"
+    },
+    {
+        "title": "Superficial Love",
+        "artist": "Ruth B.",
+        "album": "The Intro",
+        "year": "2015",
+        "dateAdded": "2023-06-04T02:17:16.000Z"
+    },
+    {
+        "title": "Falling",
+        "artist": "Harry Styles",
+        "album": "Fine Line",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:17:04.000Z"
+    },
+    {
+        "title": "Can I Be Him",
+        "artist": "James Arthur",
+        "album": "Back from the Edge",
+        "year": "2016",
+        "dateAdded": "2023-06-04T02:16:54.000Z"
+    },
+    {
+        "title": "All I Ever Need",
+        "artist": "Austin Mahone",
+        "album": "The Secret",
+        "year": "2014",
+        "dateAdded": "2023-06-04T02:16:40.000Z"
+    },
+    {
+        "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
+        "artist": "James Arthur/Anne-Marie",
+        "album": "Rewrite The Stars (with James Arthur & Anne-Marie)",
+        "year": "2018",
+        "dateAdded": "2023-06-04T02:16:30.000Z"
+    },
+    {
+        "title": "That Should Be Me",
+        "artist": "Justin Bieber",
+        "album": "My World 2.0",
+        "year": "2010",
+        "dateAdded": "2023-06-04T02:16:20.000Z"
+    },
+    {
+        "title": "All I Want - From \"High School Musical: The Musical: The Series\"",
+        "artist": "Olivia Rodrigo/Disney",
+        "album": "All I Want (From \"High School Musical: The Musical: The Series\")",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:16:02.000Z"
+    },
+    {
+        "title": "It's You",
+        "artist": "Ali Gatie",
+        "album": "YOU",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:15:54.000Z"
+    },
+    {
         "title": "hate u love u",
-        "album": "",
-        "year": "",
         "artist": "Olivia O'Brien",
-        "musicPath": "./assets/music/hate u love u.mp3"
+        "album": "hate u love u",
+        "year": "2016",
+        "dateAdded": "2023-06-04T02:15:46.000Z"
     },
     {
-        "backgroundImage": "",
-        "posterUrl": "",
-        "title": "traitor",
-        "album": "",
-        "year": "",
+        "title": "Ring",
+        "artist": "Selena Gomez",
+        "album": "Rare",
+        "year": "2020",
+        "dateAdded": "2023-06-04T02:15:22.000Z"
+    },
+    {
+        "title": "BRB",
+        "artist": "Luh Kel",
+        "album": "Mixed Emotions",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:15:16.000Z"
+    },
+    {
+        "title": "Y.O.U.",
+        "artist": "Luh Kel",
+        "album": "L.O.V.E.",
+        "year": "2020",
+        "dateAdded": "2023-06-04T02:15:08.000Z"
+    },
+    {
+        "title": "Pull Up",
+        "artist": "Luh Kel",
+        "album": "Mixed Emotions",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:14:56.000Z"
+    },
+    {
+        "title": "Boy's a Liar Pt. 2",
+        "artist": "PinkPantheress/Ice Spice",
+        "album": "Boy's a liar Pt. 2",
+        "year": "2023",
+        "dateAdded": "2023-06-04T02:14:48.000Z"
+    },
+    {
+        "title": "Be Alright",
+        "artist": "Dean Lewis",
+        "album": "A Place We Knew",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:14:42.000Z"
+    },
+    {
+        "title": "Kill Bill",
+        "artist": "SZA",
+        "album": "SOS",
+        "year": "2022",
+        "dateAdded": "2023-06-04T02:14:32.000Z"
+    },
+    {
+        "title": "Once in a Lifetime",
+        "artist": "Freestyle",
+        "album": "Freestyle 18 Greatest Hits",
+        "year": "2009",
+        "dateAdded": "2023-06-04T02:14:20.000Z"
+    },
+    {
+        "title": "Nobody Compares To You (feat. Katie Pearlman)",
+        "artist": "Gryffin/Katie Pearlman",
+        "album": "Gravity Pt. 1",
+        "year": "2018",
+        "dateAdded": "2023-06-04T02:14:06.000Z"
+    },
+    {
+        "title": "drivers license",
         "artist": "Olivia Rodrigo",
-        "musicPath": "./assets/music/traitor.mp3"
+        "album": "SOUR",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:13:54.000Z"
+    },
+    {
+        "title": "Before You Go",
+        "artist": "Lewis Capaldi",
+        "album": "Divinely Uninspired To A Hellish Extent (Extended Edition)",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:13:34.000Z"
+    },
+    {
+        "title": "traitor",
+        "artist": "Olivia Rodrigo",
+        "album": "SOUR",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:13:22.000Z"
+    },
+    {
+        "title": "deja vu",
+        "artist": "Olivia Rodrigo",
+        "album": "SOUR",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:13:18.000Z"
+    },
+    {
+        "title": "Dandelions",
+        "artist": "Ruth B.",
+        "album": "Safe Haven",
+        "year": "2017",
+        "dateAdded": "2023-06-04T02:13:06.000Z"
+    },
+    {
+        "title": "10,000 Hours (with Justin Bieber)",
+        "artist": "Dan + Shay/Justin Bieber",
+        "album": "Good Things",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:12:56.000Z"
+    },
+    {
+        "title": "Stuck with U (with Justin Bieber)",
+        "artist": "Ariana Grande/Justin Bieber",
+        "album": "Stuck with U",
+        "year": "2020",
+        "dateAdded": "2023-06-04T02:12:42.000Z"
+    },
+    {
+        "title": "I Quit Drinking",
+        "artist": "Kelsea Ballerini/LANY",
+        "album": "I Quit Drinking",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:12:30.000Z"
+    },
+    {
+        "title": "Malibu Nights",
+        "artist": "LANY",
+        "album": "Malibu Nights",
+        "year": "2018",
+        "dateAdded": "2023-06-04T02:12:06.000Z"
+    },
+    {
+        "title": "Lose You To Love Me",
+        "artist": "Selena Gomez",
+        "album": "Rare",
+        "year": "2020",
+        "dateAdded": "2023-06-04T02:11:54.000Z"
+    },
+    {
+        "title": "Dancing With Your Ghost",
+        "artist": "Sasha Alex Sloan",
+        "album": "Dancing With Your Ghost",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:11:44.000Z"
+    },
+    {
+        "title": "Too Good At Goodbyes",
+        "artist": "Sam Smith",
+        "album": "The Thrill Of It All (Special Edition)",
+        "year": "2017",
+        "dateAdded": "2023-06-04T02:11:36.000Z"
+    },
+    {
+        "title": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+        "artist": "ZAYN/Taylor Swift",
+        "album": "reputation Stadium Tour Surprise Song Playlist",
+        "year": "2017",
+        "dateAdded": "2023-06-04T02:11:30.000Z"
+    },
+    {
+        "title": "Scars To Your Beautiful",
+        "artist": "Alessia Cara",
+        "album": "Know-It-All",
+        "year": "2015",
+        "dateAdded": "2023-06-04T02:11:04.000Z"
+    },
+    {
+        "title": "Without Me",
+        "artist": "Halsey",
+        "album": "Manic",
+        "year": "2020",
+        "dateAdded": "2023-06-04T02:10:54.000Z"
+    },
+    {
+        "title": "Ruin My Life",
+        "artist": "Zara Larsson",
+        "album": "Poster Girl",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:10:44.000Z"
+    },
+    {
+        "title": "No One Compares To You",
+        "artist": "Jack & Jack",
+        "album": "A Good Friend Is Nice",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:10:32.000Z"
+    },
+    {
+        "title": "8 Letters",
+        "artist": "Why Don't We",
+        "album": "8 Letters",
+        "year": "2018",
+        "dateAdded": "2023-06-04T02:10:22.000Z"
+    },
+    {
+        "title": "Fly",
+        "artist": "Nicki Minaj/Rihanna",
+        "album": "Pink Friday",
+        "year": "2010",
+        "dateAdded": "2023-06-04T02:10:12.000Z"
+    },
+    {
+        "title": "Take A Bow",
+        "artist": "Rihanna",
+        "album": "Good Girl Gone Bad: Reloaded",
+        "year": "2008",
+        "dateAdded": "2023-06-04T02:09:58.000Z"
+    },
+    {
+        "title": "This City",
+        "artist": "Sam Fischer",
+        "album": "This City",
+        "year": "2019",
+        "dateAdded": "2023-06-04T02:09:46.000Z"
+    },
+    {
+        "title": "Strawberries & Cigarettes",
+        "artist": "Troye Sivan",
+        "album": "Strawberries & Cigarettes",
+        "year": "2018",
+        "dateAdded": "2023-06-04T02:09:38.000Z"
+    },
+    {
+        "title": "California King Bed",
+        "artist": "Rihanna",
+        "album": "Loud (Japan Version)",
+        "year": "2010",
+        "dateAdded": "2023-06-04T02:09:22.000Z"
+    },
+    {
+        "title": "My Only One (No Hay Nadie Más)",
+        "artist": "Sebastian Yatra/Isabela Merced",
+        "album": "Valentines Day Songs",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:09:10.000Z"
+    },
+    {
+        "title": "Remember - Acoustic",
+        "artist": "Becky Hill",
+        "album": "Remember (Acoustic)",
+        "year": "2021",
+        "dateAdded": "2023-06-04T02:09:00.000Z"
+    },
+    {
+        "title": "On My Way",
+        "artist": "Illijah",
+        "album": "On My Way",
+        "year": "2013",
+        "dateAdded": "2023-06-04T02:08:50.000Z"
     }
-];
+]

@@ -64,11 +64,6 @@
 
   </div>
 
-
-
-
-
-
   <main>
     <article>
 
@@ -171,61 +166,10 @@
 
     </article>
   </main>
-
-  <script src="./assets/js/mutag.min.js"></script>
-  <!-- 
-    - custom js link
-  -->
+  <script src="/assets/js/jsmediatags.min.js"></script>
   <script>
-
-
-    // const mutag = window.mutag;
-    // const filePath = "./assets/music/BRB.mp3";
-
-    // mutag.fetch(filePath).then((tags) => {
-    //   //get all tags
-    //   console.log(tags);
-    // });
-    // const mutag = window.mutag;
-    // const dropDOM = document.querySelector('.drop-area');
-    // dropDOM.addEventListener('drop', e => {
-
-    //   const file = e.dataTransfer.files[0];
-    //   let htmlStr = '';
-    //   dropDOM.innerHTML = `<div>${file.name}</div>`;
-    //   mutag.fetch(file).then(tags => {
-    //     if (tags.APIC) {
-    //       document.querySelector('.apic-img').src = URL.createObjectURL(tags.APIC);
-    //       document.querySelector('.apic').style.display = 'initial';
-    //     }
-
-
-    //     for (let tag of Object.keys(tags)) {
-    //       // normally, we don't need PRIV key
-    //       if (tag !== 'PRIV' && tag !== 'APIC')
-    //         console.log(tag)
-    //       htmlStr += `<p>
-    //                                     <span class='tag'>${tag}</span> --- <span>${tags[tag]}<span>
-    //                                 </p>`;
-    //     }
-
-    //     document.querySelector('.tags').innerHTML = htmlStr;
-    //   });
-
-
-    // }, false);
-
-    // document.addEventListener('drop', e => e.preventDefault(), false);
-    // document.addEventListener('dragover', e => e.preventDefault(), false);
-
-
-
-
-
     window.onload = (event) => {
       loadLastPlayed()
-
-
     };
   </script>
   <script src="./assets/js/musicdata.js"></script>
