@@ -1,5 +1,40 @@
 const musicData = [
     {
+        "title": "Jealous",
+        "artist": "Nick Jonas",
+        "album": "Nick Jonas X2",
+        "year": "2015",
+        "dateAdded": "2023-06-30T07:41:10.000Z"
+    },
+    {
+        "title": "I Don't Mind (feat. Juicy J)",
+        "artist": "Usher/Juicy J",
+        "album": "I Don't Mind (feat. Juicy J)",
+        "year": "2014",
+        "dateAdded": "2023-06-30T07:41:06.000Z"
+    },
+    {
+        "title": "Love Don't Change",
+        "artist": "Jeremih",
+        "album": "All About You",
+        "year": "2010",
+        "dateAdded": "2023-06-30T07:41:00.000Z"
+    },
+    {
+        "title": "Nights Like This (feat. Ty Dolla $ign)",
+        "artist": "Kehlani/Ty Dolla $ign",
+        "album": "While We Wait",
+        "year": "2019",
+        "dateAdded": "2023-06-30T07:40:58.000Z"
+    },
+    {
+        "title": "YK",
+        "artist": "Cean Jr.",
+        "album": "YK",
+        "year": "2021",
+        "dateAdded": "2023-06-30T07:36:04.000Z"
+    },
+    {
         "title": "Angel",
         "artist": "Shaggy/Rayvon",
         "album": "Hot Shot",
@@ -12,13 +47,6 @@ const musicData = [
         "album": "Hot Shot",
         "year": "2000",
         "dateAdded": "2023-06-17T06:50:12.000Z"
-    },
-    {
-        "title": "YK",
-        "artist": "Cean Jr.",
-        "album": "YK",
-        "year": "2021",
-        "dateAdded": "2023-06-17T06:49:54.000Z"
     },
     {
         "title": "Say Goodbye",
